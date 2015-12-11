@@ -1,0 +1,35 @@
+{
+  "name": "@sublimemedia/wicker-man-learning",
+  "version": "0.1.0",
+  "description": "An abstraction for dealing with the api-connector within a Wicker Man project.",
+  "main": "./dist/WMLearning.js",
+  "scripts": {
+    "build": "rm -rf ./dist && broccoli build ./dist",
+    "test": "./node_modules/.bin/mocha -R spec --recursive",
+    "test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sublimemedia/wicker-man-learning.git"
+  },
+  "author": "Sublime Media",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sublimemedia/wicker-man-learning/issues"
+  },
+  "homepage": "https://github.com/sublimemedia/wicker-man-learning#readme",
+  "devDependencies": {
+    "broccoli": "^0.16.8",
+    "broccoli-babel-transpiler": "^5.4.5",
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.2"
+  },
+  "dependencies": {
+    "@sublimemedia/api-connector": "^0.1.1",
+    "@sublimemedia/wicker-man-bee": "^0.1.0",
+    "@sublimemedia/wicker-man-content": "^0.1.2",
+    "@sublimemedia/wicker-man-utilities": "^0.1.1",
+    "bluebird": "2.x.x"
+  }
+}
