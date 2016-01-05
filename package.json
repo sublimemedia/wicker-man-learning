@@ -1,6 +1,6 @@
 {
   "name": "@sublimemedia/wicker-man-learning",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An abstraction for dealing with the api-connector within a Wicker Man project.",
   "main": "./dist/WMLearning.js",
   "scripts": {
